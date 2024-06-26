@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/diogo/mlops-heart/mlruns/965263970321573905/4488a73f11e447d4ac315e35e8097faf/artifacts
+end_time: 1719436894357
+entry_point_name: ''
+experiment_id: '965263970321573905'
+lifecycle_stage: active
+run_id: 4488a73f11e447d4ac315e35e8097faf
+run_name: train_test_split
+run_uuid: 4488a73f11e447d4ac315e35e8097faf
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719436894021
+status: 3
+tags: []
+user_id: diogo
