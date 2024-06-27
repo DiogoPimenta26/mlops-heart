@@ -12,8 +12,8 @@ from mlops_heart.pipelines import (
     test_data_preprocessing as tdp,
     test_feature_extraction as tfe,
     train_test_split as tts,
-    #feature_selection as fs,
-    data_drift as dd,
+    feature_selection as fs,
+    #data_drift as dd,
 )
 
 
@@ -33,8 +33,8 @@ def register_pipelines() -> Dict[str, Pipeline]:
     test_data_preprocessing_pipeline = tdp.create_pipeline()
     test_feature_extraction_pipeline = tfe.create_pipeline()
     train_test_split_pipeline = tts.create_pipeline()
-    #feature_selection_pipeline = fs.create_pipeline()
-    data_drift_pipeline = dd.create_pipeline()
+    feature_selection_pipeline = fs.create_pipeline()
+#    data_drift_pipeline = dd.create_pipeline()
 
     return {
         "__default__": data_ingestion_pipeline,
@@ -46,6 +46,6 @@ def register_pipelines() -> Dict[str, Pipeline]:
         "test_data_preprocessing": test_data_preprocessing_pipeline,
         "test_feature_extraction": test_feature_extraction_pipeline,
         "train_test_split": train_test_split_pipeline,
-      #  "feature_selection": feature_selection_pipeline,
-        "data_drift": data_drift_pipeline,
+        "feature_selection": feature_selection_pipeline,
+ #       "data_drift": data_drift_pipeline,
     }

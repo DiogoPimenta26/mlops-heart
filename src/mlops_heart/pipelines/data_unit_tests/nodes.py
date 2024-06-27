@@ -41,6 +41,7 @@ def validate_data(data: pd.DataFrame) -> pd.DataFrame:
     for column, expected_type in expected_types.items():
         assert pd_df_ge.expect_column_values_to_be_of_type(column, expected_type).success, f"{column} is not of type {expected_type}"
 
+#TODO AQUI POR AS COLUNAS MAIS IMPORTANTES DO FEATURE SELECTION
     # Check for missing values in critical columns
     critical_columns = ['age', 'sex', 'chest_pain_type', 'resting_bp_s', 'cholesterol', 'max_heart_rate', 'target']
 

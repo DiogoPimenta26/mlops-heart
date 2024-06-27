@@ -3,8 +3,6 @@ This is a boilerplate pipeline 'data_split'
 generated using Kedro 0.19.5
 """
 
-#TODO ADD THE FEATURE STORE
-
 import pandas as pd
 
 #split the data randomly for the unit tests

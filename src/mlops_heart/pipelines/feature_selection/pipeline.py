@@ -1,17 +1,13 @@
-"""
-This is a boilerplate pipeline 'feature_selection_pipeline'
-generated using Kedro 0.19.5
-"""
-from kedro.pipeline import Pipeline, node, pipeline
+from kedro.pipeline import Pipeline, node
 from .nodes import feature_selection
-
+ 
 def create_pipeline(**kwargs) -> Pipeline:
-    return pipeline(
+    return Pipeline(
         [
             node(
                 func=feature_selection,
                 inputs=["X_train", "y_train", "parameters"],
-                outputs=["selected_features", "feature_importance_plot"],
+                outputs="best_columns",
                 name="model_feature_selection",
             ),
         ]

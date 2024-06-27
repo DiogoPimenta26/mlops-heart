@@ -1,1 +1,1 @@
-{"use_data": {"rows": 952, "columns": 13, "file_size": 36045}, "test_data": {"rows": 238, "columns": 13, "file_size": 9109}, "drift_result": {"rows": 10, "columns": 23, "file_size": 2324}}
+{"X_train": {"rows": 652, "columns": 24, "file_size": 36159}, "y_train": {"rows": 652, "columns": 1, "file_size": 1964}}
