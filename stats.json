@@ -1,1 +1,1 @@
-{"use_aligned_features": {"rows": 816, "columns": 25, "file_size": 46809}, "X_train": {"rows": 652, "columns": 24, "file_size": 36159}, "X_test": {"rows": 164, "columns": 24, "file_size": 9346}}
+{"use_data": {"rows": 952, "columns": 13, "file_size": 36045}, "test_data": {"rows": 238, "columns": 13, "file_size": 9109}, "drift_result": {"rows": 10, "columns": 23, "file_size": 2324}}

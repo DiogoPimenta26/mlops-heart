@@ -116,3 +116,7 @@ selected_features:
 feature_importance_plot:
   type: kedro_datasets.matplotlib.MatplotlibWriter
   filepath: data/08_reporting/feature_importances.png
+
+drift_result:
+  type: pandas.CSVDataset
+  filepath: data/08_reporting/drift_result.csv
