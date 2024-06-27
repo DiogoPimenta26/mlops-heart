@@ -1,20 +1,6 @@
 ##########################
 # KEDRO PROJECT
 
-
-# ignore everything in the following folders
-data/**
-
-# except their sub-folders
-!data/**/
-
-# also keep all .gitkeep files
-!.gitkeep
-
-# keep also the example dataset
-!data/01_raw/*
-
-
 ##########################
 # Common files
 

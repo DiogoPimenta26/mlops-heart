@@ -1,14 +1,12 @@
+#to run this test put pytest tests/pipelines/test_data_preprocessing/test_pipeline.py
+
+from pathlib import Path
 import pytest
 import pandas as pd
-from src.mlops_heart.pipelines.use_data_preprocessing import (
-    remove_duplicates,
-    remove_zero_bp,
-    remove_zero_cholesterol,
-    remove_zero_st_slope,
-    max_heart_rate_outliers,
-    bin_age,
-    bin_cholesterol
-)
+import numpy as np
+import os
+
+from src.mlops_heart.pipelines.test_data_preprocessing.nodes import remove_duplicates, remove_zero_bp, remove_zero_cholesterol, remove_zero_st_slope, max_heart_rate_outliers, bin_age, bin_cholesterol
 
 def test_remove_duplicates():
     # Arrange
@@ -102,7 +100,9 @@ def test_bin_age():
         'resting_bp_s': [120, 130, 140, 150, 160, 170]
     })
     expected_output = pd.DataFrame({
-        'age': ['0-40', '41-50', '51-60', '61-70', '71-80', '81-90'],
+        'age': pd.Categorical(['0-40', '41-50', '51-60', '61-70', '71-80', '81-90'], 
+                              categories=['0-40', '41-50', '51-60', '61-70', '71-80', '81-90'], 
+                              ordered=True),
         'resting_bp_s': [120, 130, 140, 150, 160, 170]
     }).reset_index(drop=True)
 
@@ -119,7 +119,9 @@ def test_bin_cholesterol():
         'resting_bp_s': [120, 130, 140]
     })
     expected_output = pd.DataFrame({
-        'cholesterol': ['normal', 'borderline high', 'high'],
+        'cholesterol': pd.Categorical(['normal', 'borderline high', 'high'], 
+                                      categories=['normal', 'borderline high', 'high'], 
+                                      ordered=True),
         'resting_bp_s': [120, 130, 140]
     }).reset_index(drop=True)
 
