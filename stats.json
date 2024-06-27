@@ -1,1 +1,1 @@
-{"X_train": {"rows": 652, "columns": 24, "file_size": 36159}, "y_train": {"rows": 652, "columns": 1, "file_size": 1964}}
+{"X_train": {"rows": 652, "columns": 24, "file_size": 36159}, "y_train": {"rows": 652, "columns": 1, "file_size": 1964}, "best_columns": {"rows": 12, "columns": 1, "file_size": 186}}

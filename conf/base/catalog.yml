@@ -121,3 +121,8 @@ drift_result:
   type: pandas.CSVDataset
   filepath: data/08_reporting/drift_result.csv
 
+best_columns:
+  type: pandas.CSVDataset
+  filepath: data/04_feature/best_columns.csv
+  save_args:
+    index: False
