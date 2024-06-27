@@ -17,11 +17,11 @@ feature_columns:
   - exercise_angina
   - oldpeak
   - target
-  - age_0-40
-  - age_41-50
-  - age_51-60
-  - age_61-70
-  - age_71-80
+  - age_0_40
+  - age_41_50
+  - age_51_60
+  - age_61_70
+  - age_70+
   - cholesterol_borderline high
   - cholesterol_high
   - cholesterol_normal

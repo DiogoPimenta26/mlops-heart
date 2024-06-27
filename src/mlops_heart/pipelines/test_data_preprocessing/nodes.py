@@ -20,7 +20,7 @@ def max_heart_rate_outliers(data: pd.DataFrame) -> pd.DataFrame:
     return data[(data['max_heart_rate'] >= 72) & (data['max_heart_rate'] <= 202)]
 
 def bin_age(data: pd.DataFrame) -> pd.DataFrame:
-    data['age'] = pd.cut(data['age'], bins=[0, 40, 50, 60, 70, 80, 90], labels=['0-40', '41-50', '51-60', '61-70', '71-80', '81-90'])
+    data['age'] = pd.cut(data['age'], bins=[0, 40, 50, 60, 70, float('inf')], labels=['0_40', '41_50', '51_60', '61_70', '70+'])
     return data
 
 def bin_cholesterol(data: pd.DataFrame) -> pd.DataFrame:

@@ -96,14 +96,14 @@ def test_max_heart_rate_outliers():
 def test_bin_age():
     # Arrange
     data = pd.DataFrame({
-        'age': [25, 45, 55, 65, 75, 85],
-        'resting_bp_s': [120, 130, 140, 150, 160, 170]
+        'age': [25, 45, 55, 65, 75],
+        'resting_bp_s': [120, 130, 140, 150, 160]
     })
     expected_output = pd.DataFrame({
-        'age': pd.Categorical(['0-40', '41-50', '51-60', '61-70', '71-80', '81-90'], 
-                              categories=['0-40', '41-50', '51-60', '61-70', '71-80', '81-90'], 
+        'age': pd.Categorical(['0_40', '41_50', '51_60', '61_70', '70+'], 
+                              categories=['0_40', '41_50', '51_60', '61_70', '70+'], 
                               ordered=True),
-        'resting_bp_s': [120, 130, 140, 150, 160, 170]
+        'resting_bp_s': [120, 130, 140, 150, 160]
     }).reset_index(drop=True)
 
     # Act
