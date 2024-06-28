@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/diogo/mlops-heart/mlruns/965263970321573905/71b33c75ceca41e483d1387f7cd5002a/artifacts
+end_time: 1719597376219
+entry_point_name: ''
+experiment_id: '965263970321573905'
+lifecycle_stage: active
+run_id: 71b33c75ceca41e483d1387f7cd5002a
+run_name: exultant-elk-866
+run_uuid: 71b33c75ceca41e483d1387f7cd5002a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719597368084
+status: 4
+tags: []
+user_id: diogo

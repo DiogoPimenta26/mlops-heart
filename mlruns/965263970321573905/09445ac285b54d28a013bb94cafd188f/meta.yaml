@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/diogo/mlops-heart/mlruns/965263970321573905/09445ac285b54d28a013bb94cafd188f/artifacts
+end_time: 1719594153597
+entry_point_name: ''
+experiment_id: '965263970321573905'
+lifecycle_stage: active
+run_id: 09445ac285b54d28a013bb94cafd188f
+run_name: mercurial-kit-880
+run_uuid: 09445ac285b54d28a013bb94cafd188f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719594136077
+status: 3
+tags: []
+user_id: diogo

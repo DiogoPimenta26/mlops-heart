@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/diogo/mlops-heart/mlruns/965263970321573905/3e79ccf02e5940b48a99512add10dbcd/artifacts
+end_time: 1719594151311
+entry_point_name: ''
+experiment_id: '965263970321573905'
+lifecycle_stage: active
+run_id: 3e79ccf02e5940b48a99512add10dbcd
+run_name: mysterious-trout-709
+run_uuid: 3e79ccf02e5940b48a99512add10dbcd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719594136077
+status: 3
+tags: []
+user_id: diogo

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/diogo/mlops-heart/mlruns/965263970321573905/a715edfab863406390647d6b37b3a92f/artifacts
+end_time: 1719594136059
+entry_point_name: ''
+experiment_id: '965263970321573905'
+lifecycle_stage: active
+run_id: a715edfab863406390647d6b37b3a92f
+run_name: enthused-penguin-242
+run_uuid: a715edfab863406390647d6b37b3a92f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719594132045
+status: 3
+tags: []
+user_id: diogo

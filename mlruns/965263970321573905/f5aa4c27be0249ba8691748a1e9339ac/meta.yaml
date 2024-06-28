@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/diogo/mlops-heart/mlruns/965263970321573905/f5aa4c27be0249ba8691748a1e9339ac/artifacts
+end_time: 1719596166027
+entry_point_name: ''
+experiment_id: '965263970321573905'
+lifecycle_stage: active
+run_id: f5aa4c27be0249ba8691748a1e9339ac
+run_name: indecisive-ant-76
+run_uuid: f5aa4c27be0249ba8691748a1e9339ac
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719596156735
+status: 3
+tags: []
+user_id: diogo

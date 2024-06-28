@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/diogo/mlops-heart/mlruns/965263970321573905/29b3a9c2531742a48fe3ed924924d35b/artifacts
+end_time: 1719588316745
+entry_point_name: ''
+experiment_id: '965263970321573905'
+lifecycle_stage: active
+run_id: 29b3a9c2531742a48fe3ed924924d35b
+run_name: bittersweet-mole-843
+run_uuid: 29b3a9c2531742a48fe3ed924924d35b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719588308488
+status: 3
+tags: []
+user_id: diogo

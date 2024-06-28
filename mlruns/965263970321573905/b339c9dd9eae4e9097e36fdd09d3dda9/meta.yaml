@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/diogo/mlops-heart/mlruns/965263970321573905/b339c9dd9eae4e9097e36fdd09d3dda9/artifacts
+end_time: 1719597722137
+entry_point_name: ''
+experiment_id: '965263970321573905'
+lifecycle_stage: active
+run_id: b339c9dd9eae4e9097e36fdd09d3dda9
+run_name: nimble-trout-122
+run_uuid: b339c9dd9eae4e9097e36fdd09d3dda9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719597709349
+status: 3
+tags: []
+user_id: diogo

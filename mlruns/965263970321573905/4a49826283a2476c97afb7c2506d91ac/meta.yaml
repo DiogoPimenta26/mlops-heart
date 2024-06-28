@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/diogo/mlops-heart/mlruns/965263970321573905/4a49826283a2476c97afb7c2506d91ac/artifacts
+end_time: 1719590806170
+entry_point_name: ''
+experiment_id: '965263970321573905'
+lifecycle_stage: active
+run_id: 4a49826283a2476c97afb7c2506d91ac
+run_name: rogue-frog-609
+run_uuid: 4a49826283a2476c97afb7c2506d91ac
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719590787486
+status: 3
+tags: []
+user_id: diogo

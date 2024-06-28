@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/diogo/mlops-heart/mlruns/965263970321573905/b8be84c1dffa4a138f705b197f308dc2/artifacts
+end_time: 1719598286429
+entry_point_name: ''
+experiment_id: '965263970321573905'
+lifecycle_stage: active
+run_id: b8be84c1dffa4a138f705b197f308dc2
+run_name: monumental-bug-305
+run_uuid: b8be84c1dffa4a138f705b197f308dc2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719598286369
+status: 4
+tags: []
+user_id: diogo

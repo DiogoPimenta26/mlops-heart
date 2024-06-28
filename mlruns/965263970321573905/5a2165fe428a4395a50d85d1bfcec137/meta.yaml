@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/diogo/mlops-heart/mlruns/965263970321573905/5a2165fe428a4395a50d85d1bfcec137/artifacts
+end_time: 1719596060747
+entry_point_name: ''
+experiment_id: '965263970321573905'
+lifecycle_stage: active
+run_id: 5a2165fe428a4395a50d85d1bfcec137
+run_name: upset-grouse-402
+run_uuid: 5a2165fe428a4395a50d85d1bfcec137
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719596051316
+status: 3
+tags: []
+user_id: diogo

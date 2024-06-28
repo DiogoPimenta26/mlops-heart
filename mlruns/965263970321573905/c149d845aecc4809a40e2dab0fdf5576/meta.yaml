@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/diogo/mlops-heart/mlruns/965263970321573905/c149d845aecc4809a40e2dab0fdf5576/artifacts
+end_time: 1719590806170
+entry_point_name: ''
+experiment_id: '965263970321573905'
+lifecycle_stage: active
+run_id: c149d845aecc4809a40e2dab0fdf5576
+run_name: shivering-trout-500
+run_uuid: c149d845aecc4809a40e2dab0fdf5576
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719590787486
+status: 3
+tags: []
+user_id: diogo

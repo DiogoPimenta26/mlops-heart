@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/diogo/mlops-heart/mlruns/965263970321573905/6ad09aae6cf142f3a2be507e70492278/artifacts
+end_time: 1719590466258
+entry_point_name: ''
+experiment_id: '965263970321573905'
+lifecycle_stage: active
+run_id: 6ad09aae6cf142f3a2be507e70492278
+run_name: capricious-goose-383
+run_uuid: 6ad09aae6cf142f3a2be507e70492278
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719590459207
+status: 3
+tags: []
+user_id: diogo

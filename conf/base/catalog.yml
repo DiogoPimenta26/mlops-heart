@@ -122,7 +122,44 @@ drift_result:
   filepath: data/08_reporting/drift_result.csv
 
 best_columns:
-  type: pandas.CSVDataset
-  filepath: data/04_feature/best_columns.csv
-  save_args:
-    index: False
+  type: kedro_mlflow.io.artifacts.MlflowArtifactDataset
+  dataset:
+    type: pickle.PickleDataset
+    filepath: data/06_models/best_cols.pkl
+
+production_model_RF:
+  type: kedro_mlflow.io.artifacts.MlflowArtifactDataset
+  dataset:
+    type: pickle.PickleDataset
+    filepath: data/06_models/production_model_RF.pkl
+
+production_columns_RF:
+  type: kedro_mlflow.io.artifacts.MlflowArtifactDataset
+  dataset:
+    type: pickle.PickleDataset
+    filepath: data/06_models/production_columns_RF.pkl
+  
+production_model_metrics_rf:
+  type: kedro_mlflow.io.artifacts.MlflowArtifactDataset
+  dataset:
+    type: json.JSONDataset
+    filepath: data/08_reporting/production_model_metrics_rf.json
+    
+production_model_xgb:
+  type: kedro_mlflow.io.artifacts.MlflowArtifactDataset
+  dataset:
+    type: pickle.PickleDataset
+    filepath: data/06_models/production_model_xgb.pkl
+
+production_columns_xgb:
+  type: kedro_mlflow.io.artifacts.MlflowArtifactDataset
+  dataset:
+    type: pickle.PickleDataset
+    filepath: data/06_models/production_columns_xgb.pkl
+  
+production_model_metrics_xgb:
+  type: kedro_mlflow.io.artifacts.MlflowArtifactDataset
+  dataset:
+    type: json.JSONDataset
+    filepath: data/08_reporting/production_model_metrics_xgb.json
+

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/diogo/mlops-heart/mlruns/965263970321573905/73ac0512e3384446bca604c5b17f70ec/artifacts
+end_time: 1719594132032
+entry_point_name: ''
+experiment_id: '965263970321573905'
+lifecycle_stage: active
+run_id: 73ac0512e3384446bca604c5b17f70ec
+run_name: hilarious-moth-65
+run_uuid: 73ac0512e3384446bca604c5b17f70ec
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719594125577
+status: 3
+tags: []
+user_id: diogo

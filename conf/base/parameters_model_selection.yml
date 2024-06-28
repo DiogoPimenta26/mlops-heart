@@ -1,0 +1,18 @@
+# This is a boilerplate parameters config generated for pipeline 'model_selection'
+# using Kedro 0.19.5.
+#
+# Documentation for this file format can be found in "Parameters"
+# Link: https://docs.kedro.org/en/0.19.5/configuration/parameters.html
+
+hyperparameters : 
+  RandomForestClassifier:
+    n_estimators: [100, 200, 300]
+    max_depth: [5, 10, 20]
+    max_features: [0.5, 0.7, 1]
+    random_state: [2021]
+
+  XGBClassifier:
+    n_estimators: [100, 200, 300]
+    max_depth: [5, 10, 20]
+    learning_rate: [0.01, 0.1, 0.3]
+    random_state: [2021]

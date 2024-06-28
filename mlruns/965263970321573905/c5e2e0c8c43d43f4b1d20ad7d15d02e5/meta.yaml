@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/diogo/mlops-heart/mlruns/965263970321573905/c5e2e0c8c43d43f4b1d20ad7d15d02e5/artifacts
+end_time: 1719595798955
+entry_point_name: ''
+experiment_id: '965263970321573905'
+lifecycle_stage: active
+run_id: c5e2e0c8c43d43f4b1d20ad7d15d02e5
+run_name: sedate-ram-996
+run_uuid: c5e2e0c8c43d43f4b1d20ad7d15d02e5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719595792459
+status: 3
+tags: []
+user_id: diogo

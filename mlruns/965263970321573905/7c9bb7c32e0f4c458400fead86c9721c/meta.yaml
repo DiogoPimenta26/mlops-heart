@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/diogo/mlops-heart/mlruns/965263970321573905/7c9bb7c32e0f4c458400fead86c9721c/artifacts
+end_time: 1719598286357
+entry_point_name: ''
+experiment_id: '965263970321573905'
+lifecycle_stage: active
+run_id: 7c9bb7c32e0f4c458400fead86c9721c
+run_name: upset-carp-882
+run_uuid: 7c9bb7c32e0f4c458400fead86c9721c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719598277023
+status: 3
+tags: []
+user_id: diogo

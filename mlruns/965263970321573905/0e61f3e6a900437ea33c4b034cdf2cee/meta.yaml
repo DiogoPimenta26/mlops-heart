@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/diogo/mlops-heart/mlruns/965263970321573905/0e61f3e6a900437ea33c4b034cdf2cee/artifacts
+end_time: 1719596361196
+entry_point_name: ''
+experiment_id: '965263970321573905'
+lifecycle_stage: active
+run_id: 0e61f3e6a900437ea33c4b034cdf2cee
+run_name: unruly-quail-665
+run_uuid: 0e61f3e6a900437ea33c4b034cdf2cee
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719596361097
+status: 3
+tags: []
+user_id: diogo

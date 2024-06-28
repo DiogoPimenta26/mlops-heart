@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/diogo/mlops-heart/mlruns/965263970321573905/4e2e6e0a432848c6a6736fa309b210b6/artifacts
+end_time: 1719596518294
+entry_point_name: ''
+experiment_id: '965263970321573905'
+lifecycle_stage: active
+run_id: 4e2e6e0a432848c6a6736fa309b210b6
+run_name: rebellious-auk-101
+run_uuid: 4e2e6e0a432848c6a6736fa309b210b6
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719596508163
+status: 3
+tags: []
+user_id: diogo

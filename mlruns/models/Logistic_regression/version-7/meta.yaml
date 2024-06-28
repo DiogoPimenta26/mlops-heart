@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1719597280144
+current_stage: None
+description: ''
+last_updated_timestamp: 1719597280144
+name: Logistic_regression
+run_id: 4b699c9f4b89428d8025c0841a258515
+run_link: ''
+source: file:///C:/Users/diogo/mlops-heart/mlruns/965263970321573905/4b699c9f4b89428d8025c0841a258515/artifacts/logistic_regression_model
+status: READY
+status_message: null
+storage_location: file:///C:/Users/diogo/mlops-heart/mlruns/965263970321573905/4b699c9f4b89428d8025c0841a258515/artifacts/logistic_regression_model
+user_id: null
+version: 7

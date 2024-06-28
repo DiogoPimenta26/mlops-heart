@@ -1,0 +1,24 @@
+digest: a4f8a0a2
+name: dataset
+profile: '{"num_rows": 652, "num_elements": 15648}'
+schema: '{"mlflow_colspec": [{"type": "long", "name": "sex", "required": true}, {"type":
+  "long", "name": "resting_bp_s", "required": true}, {"type": "long", "name": "fasting_blood_sugar",
+  "required": true}, {"type": "long", "name": "max_heart_rate", "required": true},
+  {"type": "long", "name": "exercise_angina", "required": true}, {"type": "double",
+  "name": "oldpeak", "required": true}, {"type": "long", "name": "age_0_40", "required":
+  true}, {"type": "long", "name": "age_41_50", "required": true}, {"type": "long",
+  "name": "age_51_60", "required": true}, {"type": "long", "name": "age_61_70", "required":
+  true}, {"type": "long", "name": "age_70+", "required": true}, {"type": "long", "name":
+  "cholesterol_borderline high", "required": true}, {"type": "long", "name": "cholesterol_high",
+  "required": true}, {"type": "long", "name": "cholesterol_normal", "required": true},
+  {"type": "long", "name": "chest_pain_type_1", "required": true}, {"type": "long",
+  "name": "chest_pain_type_2", "required": true}, {"type": "long", "name": "chest_pain_type_3",
+  "required": true}, {"type": "long", "name": "chest_pain_type_4", "required": true},
+  {"type": "long", "name": "resting_ecg_0", "required": true}, {"type": "long", "name":
+  "resting_ecg_1", "required": true}, {"type": "long", "name": "resting_ecg_2", "required":
+  true}, {"type": "long", "name": "st_slope_1", "required": true}, {"type": "long",
+  "name": "st_slope_2", "required": true}, {"type": "long", "name": "st_slope_3",
+  "required": true}]}'
+source: '{"tags": {"mlflow.user": "diogo", "mlflow.source.name": "C:\\Users\\diogo\\anaconda3\\envs\\test_env\\Scripts\\kedro",
+  "mlflow.source.type": "LOCAL"}}'
+source_type: code

@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1719596531168
+current_stage: None
+description: ''
+last_updated_timestamp: 1719596531168
+name: Xgboost
+run_id: b543d58c342d44e79d0a721433cb2514
+run_link: ''
+source: file:///C:/Users/diogo/mlops-heart/mlruns/965263970321573905/b543d58c342d44e79d0a721433cb2514/artifacts/xgboost_model
+status: READY
+status_message: null
+storage_location: file:///C:/Users/diogo/mlops-heart/mlruns/965263970321573905/b543d58c342d44e79d0a721433cb2514/artifacts/xgboost_model
+user_id: null
+version: 5

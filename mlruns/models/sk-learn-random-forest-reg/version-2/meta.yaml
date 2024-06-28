@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1719593943486
+current_stage: None
+description: ''
+last_updated_timestamp: 1719593943486
+name: sk-learn-random-forest-reg
+run_id: 642c13d51d1e46598dd86d9384202666
+run_link: ''
+source: file:///C:/Users/diogo/mlops-heart/mlruns/965263970321573905/642c13d51d1e46598dd86d9384202666/artifacts/model
+status: READY
+status_message: null
+storage_location: file:///C:/Users/diogo/mlops-heart/mlruns/965263970321573905/642c13d51d1e46598dd86d9384202666/artifacts/model
+user_id: null
+version: 2

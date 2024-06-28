@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/diogo/mlops-heart/mlruns/965263970321573905/98d3ea643d0f4cd884410c92ff0b7c52/artifacts
+end_time: 1719597833113
+entry_point_name: ''
+experiment_id: '965263970321573905'
+lifecycle_stage: active
+run_id: 98d3ea643d0f4cd884410c92ff0b7c52
+run_name: dashing-foal-592
+run_uuid: 98d3ea643d0f4cd884410c92ff0b7c52
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719597833027
+status: 4
+tags: []
+user_id: diogo

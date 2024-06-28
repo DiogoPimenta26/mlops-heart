@@ -1,0 +1,45 @@
+artifact_path: model
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.10.14
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.4.0
+mlflow_version: 2.11.3
+model_size_bytes: 607105
+model_uuid: 8acbc56ee6c44dbab64503f1908e0c35
+run_id: 6ad09aae6cf142f3a2be507e70492278
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  type: dataframe
+signature:
+  inputs: '[{"type": "long", "name": "sex", "required": true}, {"type": "long", "name":
+    "resting_bp_s", "required": true}, {"type": "long", "name": "fasting_blood_sugar",
+    "required": true}, {"type": "long", "name": "max_heart_rate", "required": true},
+    {"type": "long", "name": "exercise_angina", "required": true}, {"type": "double",
+    "name": "oldpeak", "required": true}, {"type": "long", "name": "age_0_40", "required":
+    true}, {"type": "long", "name": "age_41_50", "required": true}, {"type": "long",
+    "name": "age_51_60", "required": true}, {"type": "long", "name": "age_61_70",
+    "required": true}, {"type": "long", "name": "age_70+", "required": true}, {"type":
+    "long", "name": "cholesterol_borderline high", "required": true}, {"type": "long",
+    "name": "cholesterol_high", "required": true}, {"type": "long", "name": "cholesterol_normal",
+    "required": true}, {"type": "long", "name": "chest_pain_type_1", "required": true},
+    {"type": "long", "name": "chest_pain_type_2", "required": true}, {"type": "long",
+    "name": "chest_pain_type_3", "required": true}, {"type": "long", "name": "chest_pain_type_4",
+    "required": true}, {"type": "long", "name": "resting_ecg_0", "required": true},
+    {"type": "long", "name": "resting_ecg_1", "required": true}, {"type": "long",
+    "name": "resting_ecg_2", "required": true}, {"type": "long", "name": "st_slope_1",
+    "required": true}, {"type": "long", "name": "st_slope_2", "required": true}, {"type":
+    "long", "name": "st_slope_3", "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "int64", "shape": [-1]}}]'
+  params: null
+utc_time_created: '2024-06-28 16:01:00.732555'

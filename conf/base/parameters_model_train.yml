@@ -1,0 +1,17 @@
+# This is a boilerplate parameters config generated for pipeline 'model_train'
+# using Kedro 0.19.5.
+#
+# Documentation for this file format can be found in "Parameters"
+# Link: https://docs.kedro.org/en/0.19.5/configuration/parameters.html
+models_to_train:
+  - random_forest
+  - xgboost
+
+rf_params:
+  n_estimators: 100
+  max_depth: 5
+  random_state: 42
+
+dt_params:
+  max_depth: 5
+  random_state: 42

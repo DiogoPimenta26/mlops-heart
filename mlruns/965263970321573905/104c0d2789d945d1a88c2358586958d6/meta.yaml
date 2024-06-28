@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/diogo/mlops-heart/mlruns/965263970321573905/104c0d2789d945d1a88c2358586958d6/artifacts
+end_time: 1719597436704
+entry_point_name: ''
+experiment_id: '965263970321573905'
+lifecycle_stage: active
+run_id: 104c0d2789d945d1a88c2358586958d6
+run_name: bald-ox-173
+run_uuid: 104c0d2789d945d1a88c2358586958d6
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719597422274
+status: 3
+tags: []
+user_id: diogo

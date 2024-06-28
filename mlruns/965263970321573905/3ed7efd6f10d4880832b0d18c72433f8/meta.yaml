@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/diogo/mlops-heart/mlruns/965263970321573905/3ed7efd6f10d4880832b0d18c72433f8/artifacts
+end_time: 1719595139353
+entry_point_name: ''
+experiment_id: '965263970321573905'
+lifecycle_stage: active
+run_id: 3ed7efd6f10d4880832b0d18c72433f8
+run_name: handsome-crow-922
+run_uuid: 3ed7efd6f10d4880832b0d18c72433f8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719595136429
+status: 3
+tags: []
+user_id: diogo

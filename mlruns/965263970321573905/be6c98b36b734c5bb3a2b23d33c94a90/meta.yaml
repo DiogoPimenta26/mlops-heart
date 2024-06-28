@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/diogo/mlops-heart/mlruns/965263970321573905/be6c98b36b734c5bb3a2b23d33c94a90/artifacts
+end_time: 1719596358661
+entry_point_name: ''
+experiment_id: '965263970321573905'
+lifecycle_stage: active
+run_id: be6c98b36b734c5bb3a2b23d33c94a90
+run_name: polite-smelt-44
+run_uuid: be6c98b36b734c5bb3a2b23d33c94a90
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719596358440
+status: 3
+tags: []
+user_id: diogo

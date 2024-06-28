@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/diogo/mlops-heart/mlruns/965263970321573905/5f9e509382db4766ad31dcc5a78b9984/artifacts
+end_time: 1719589575910
+entry_point_name: ''
+experiment_id: '965263970321573905'
+lifecycle_stage: active
+run_id: 5f9e509382db4766ad31dcc5a78b9984
+run_name: orderly-dolphin-535
+run_uuid: 5f9e509382db4766ad31dcc5a78b9984
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719589565496
+status: 3
+tags: []
+user_id: diogo

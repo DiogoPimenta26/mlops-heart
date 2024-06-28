@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/diogo/mlops-heart/mlruns/965263970321573905/4730cd8aa89449ab8bea15a2c0777663/artifacts
+end_time: 1719597728038
+entry_point_name: ''
+experiment_id: '965263970321573905'
+lifecycle_stage: active
+run_id: 4730cd8aa89449ab8bea15a2c0777663
+run_name: valuable-seal-127
+run_uuid: 4730cd8aa89449ab8bea15a2c0777663
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719597727949
+status: 4
+tags: []
+user_id: diogo

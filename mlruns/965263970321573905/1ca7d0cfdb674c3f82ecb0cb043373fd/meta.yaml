@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/diogo/mlops-heart/mlruns/965263970321573905/1ca7d0cfdb674c3f82ecb0cb043373fd/artifacts
+end_time: 1719597226954
+entry_point_name: ''
+experiment_id: '965263970321573905'
+lifecycle_stage: active
+run_id: 1ca7d0cfdb674c3f82ecb0cb043373fd
+run_name: valuable-rook-156
+run_uuid: 1ca7d0cfdb674c3f82ecb0cb043373fd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719597215994
+status: 4
+tags: []
+user_id: diogo

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/diogo/mlops-heart/mlruns/965263970321573905/7bac2af0475c458d91384fe1f85ee111/artifacts
+end_time: 1719596361205
+entry_point_name: ''
+experiment_id: '965263970321573905'
+lifecycle_stage: active
+run_id: 7bac2af0475c458d91384fe1f85ee111
+run_name: big-jay-202
+run_uuid: 7bac2af0475c458d91384fe1f85ee111
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719596358381
+status: 4
+tags: []
+user_id: diogo

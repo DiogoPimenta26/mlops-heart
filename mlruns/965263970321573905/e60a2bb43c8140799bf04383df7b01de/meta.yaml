@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/diogo/mlops-heart/mlruns/965263970321573905/e60a2bb43c8140799bf04383df7b01de/artifacts
+end_time: 1719593814277
+entry_point_name: ''
+experiment_id: '965263970321573905'
+lifecycle_stage: active
+run_id: e60a2bb43c8140799bf04383df7b01de
+run_name: auspicious-robin-687
+run_uuid: e60a2bb43c8140799bf04383df7b01de
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719593802654
+status: 3
+tags: []
+user_id: diogo

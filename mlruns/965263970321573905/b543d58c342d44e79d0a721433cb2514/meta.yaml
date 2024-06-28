@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/diogo/mlops-heart/mlruns/965263970321573905/b543d58c342d44e79d0a721433cb2514/artifacts
+end_time: 1719596531209
+entry_point_name: ''
+experiment_id: '965263970321573905'
+lifecycle_stage: active
+run_id: b543d58c342d44e79d0a721433cb2514
+run_name: incongruous-frog-778
+run_uuid: b543d58c342d44e79d0a721433cb2514
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719596525497
+status: 3
+tags: []
+user_id: diogo

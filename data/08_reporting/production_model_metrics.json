@@ -1,0 +1,5 @@
+{
+  "classifier": "RandomForestClassifier",
+  "train_score": 0.9677914110429447,
+  "test_score": 0.8963414634146342
+}

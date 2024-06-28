@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/diogo/mlops-heart/mlruns/965263970321573905/772d281da9cb4f3990ec685af1e202a2/artifacts
+end_time: 1719595321133
+entry_point_name: ''
+experiment_id: '965263970321573905'
+lifecycle_stage: active
+run_id: 772d281da9cb4f3990ec685af1e202a2
+run_name: skittish-toad-398
+run_uuid: 772d281da9cb4f3990ec685af1e202a2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719595314560
+status: 3
+tags: []
+user_id: diogo

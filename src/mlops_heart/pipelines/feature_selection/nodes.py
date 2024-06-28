@@ -62,10 +62,4 @@ def feature_selection(X_train: pd.DataFrame, y_train: pd.DataFrame, parameters: 
     else:
         log.warning(f"Unsupported feature selection method: {feature_selection_method}. No features selected.")
  
-    # Convert the list of columns to a DataFrame
-    selected_features_df = pd.DataFrame({"selected_features": X_cols})
-    
-    # Log the DataFrame to be saved
-    log.info(f"DataFrame to be saved:\n{selected_features_df}")
- 
-    return selected_features_df
+    return X_cols   

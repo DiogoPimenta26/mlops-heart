@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/diogo/mlops-heart/mlruns/965263970321573905/f7f0107c318a4259b4a06d67780ddeca/artifacts
+end_time: 1719595327225
+entry_point_name: ''
+experiment_id: '965263970321573905'
+lifecycle_stage: active
+run_id: f7f0107c318a4259b4a06d67780ddeca
+run_name: resilient-squid-97
+run_uuid: f7f0107c318a4259b4a06d67780ddeca
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719595321144
+status: 3
+tags: []
+user_id: diogo
