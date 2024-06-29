@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1719659866767
+current_stage: None
+description: ''
+last_updated_timestamp: 1719659866767
+name: Decision_tree
+run_id: c1f1aff4976c43ba89ff7b6e277f2e27
+run_link: ''
+source: file:///C:/Users/diogo/mlops-heart/mlruns/965263970321573905/c1f1aff4976c43ba89ff7b6e277f2e27/artifacts/decision_tree_model
+status: READY
+status_message: null
+storage_location: file:///C:/Users/diogo/mlops-heart/mlruns/965263970321573905/c1f1aff4976c43ba89ff7b6e277f2e27/artifacts/decision_tree_model
+user_id: null
+version: 2

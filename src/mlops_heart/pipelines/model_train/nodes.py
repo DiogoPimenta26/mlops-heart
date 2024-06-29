@@ -13,6 +13,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.tree import DecisionTreeClassifier
 import shap
 import matplotlib.pyplot as plt
+from sklearn.model_selection import GridSearchCV
 
 
 logger = logging.getLogger(__name__)
@@ -100,5 +101,15 @@ def model_train(
         results_dict.get("random_forest", {}).get("test_score", None),
         results_dict.get("decision_tree", {}).get("test_score", None)
     ]
+    # Determine the champion model based on test score
+    champion_model_type = max(results_dict, key=lambda x: results_dict[x]['test_score'])
 
-    return output_list
+    # Output the champion model information
+    champion_output = [
+        results_dict[champion_model_type].get("classifier", None),
+        results_dict[champion_model_type].get("train_score", None),
+        results_dict[champion_model_type].get("test_score", None)
+    ]
+
+    return champion_output, output_list
+    

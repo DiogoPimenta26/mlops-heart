@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1719659860330
+current_stage: None
+description: ''
+last_updated_timestamp: 1719659860330
+name: Random_forest
+run_id: 26dc55df621c4e9284246151d0705a53
+run_link: ''
+source: file:///C:/Users/diogo/mlops-heart/mlruns/965263970321573905/26dc55df621c4e9284246151d0705a53/artifacts/random_forest_model
+status: READY
+status_message: null
+storage_location: file:///C:/Users/diogo/mlops-heart/mlruns/965263970321573905/26dc55df621c4e9284246151d0705a53/artifacts/random_forest_model
+user_id: null
+version: 20

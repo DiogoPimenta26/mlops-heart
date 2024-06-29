@@ -1,5 +1,6 @@
 from kedro.pipeline import Pipeline, node
 
+# Import your modified model_train function
 from .nodes import model_train
 
 def create_pipeline(**kwargs):
@@ -9,13 +10,10 @@ def create_pipeline(**kwargs):
                 model_train,
                 inputs=["X_train", "X_test", "y_train", "y_test", "parameters", "best_columns"],
                 outputs=[
-                    "production_model_RF",
-                    "production_model_dt",
-                    "production_columns_RF",
-                    "production_columns_dt",
-                    "production_model_metrics_rf",
-                    "production_model_metrics_dt",
+                    "champion_model_output",
+                    "all_models_output"
                 ],
             ),
         ]
     )
+
