@@ -145,21 +145,6 @@ production_model_metrics_rf:
     type: json.JSONDataset
     filepath: data/08_reporting/production_model_metrics_rf.json
     
-production_model_xgb:
-  type: kedro_mlflow.io.artifacts.MlflowArtifactDataset
-  dataset:
-    type: pickle.PickleDataset
-    filepath: data/06_models/production_model_xgb.pkl
 
-production_columns_xgb:
-  type: kedro_mlflow.io.artifacts.MlflowArtifactDataset
-  dataset:
-    type: pickle.PickleDataset
-    filepath: data/06_models/production_columns_xgb.pkl
-  
-production_model_metrics_xgb:
-  type: kedro_mlflow.io.artifacts.MlflowArtifactDataset
-  dataset:
-    type: json.JSONDataset
-    filepath: data/08_reporting/production_model_metrics_xgb.json
+
 

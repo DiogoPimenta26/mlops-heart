@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/diogo/mlops-heart/mlruns/965263970321573905/3a59c3ec5f484a3da6f45f8dd0d2e24a/artifacts
+end_time: 1719672594502
+entry_point_name: ''
+experiment_id: '965263970321573905'
+lifecycle_stage: active
+run_id: 3a59c3ec5f484a3da6f45f8dd0d2e24a
+run_name: model_train
+run_uuid: 3a59c3ec5f484a3da6f45f8dd0d2e24a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719672591751
+status: 4
+tags: []
+user_id: pedromalheiros

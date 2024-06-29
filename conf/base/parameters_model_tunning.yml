@@ -1,0 +1,10 @@
+# This is a boilerplate parameters config generated for pipeline 'model_tunning'
+# using Kedro 0.19.5.
+#
+# Documentation for this file format can be found in "Parameters"
+# Link: https://docs.kedro.org/en/0.19.5/configuration/parameters.html
+
+
+rf_param_grid:n_estimators: [50, 100, 200]
+max_depth: [5, 10, 20]
+decision_tree_param_grid:max_depth: [5, 10, 20]
