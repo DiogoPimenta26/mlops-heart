@@ -16,7 +16,7 @@ from mlops_heart.pipelines import (
     model_train as mt,
     model_tunning as mtu,
     model_predict as mp,
-    #data_drift as dd,
+    data_drift as dd,
 )
 
 
@@ -40,10 +40,14 @@ def register_pipelines() -> Dict[str, Pipeline]:
     model_train_pipeline = mt.create_pipeline()
     model_tunning_pipeline = mtu.create_pipeline()
     model_predict_pipeline = mp.create_pipeline()
-#    data_drift_pipeline = dd.create_pipeline()
+    data_drift_pipeline = dd.create_pipeline()
+
+    combine_pipeline = data_ingestion_pipeline + data_split_pipeline + data_unit_tests_pipeline + use_data_preprocessing_pipeline + use_feature_extraction_pipeline + test_data_preprocessing_pipeline + test_feature_extraction_pipeline + train_test_split_pipeline + feature_selection_pipeline + model_train_pipeline + model_tunning_pipeline + model_predict_pipeline + data_drift_pipeline
+
+
 
     return {
-        "__default__": data_ingestion_pipeline,
+        "__default__": combine_pipeline,
         "data_ingestion": data_ingestion_pipeline,
         "data_split": data_split_pipeline,
         "data_unit_tests": data_unit_tests_pipeline,
@@ -56,5 +60,5 @@ def register_pipelines() -> Dict[str, Pipeline]:
         "model_train": model_train_pipeline,
         "model_tunning": model_tunning_pipeline,
         "model_predict": model_predict_pipeline,
- #       "data_drift": data_drift_pipeline,
+        "data_drift": data_drift_pipeline,
     }

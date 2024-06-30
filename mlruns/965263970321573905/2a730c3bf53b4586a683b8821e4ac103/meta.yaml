@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/diogo/mlops-heart/mlruns/965263970321573905/2a730c3bf53b4586a683b8821e4ac103/artifacts
+end_time: 1719753167651
+entry_point_name: ''
+experiment_id: '965263970321573905'
+lifecycle_stage: active
+run_id: 2a730c3bf53b4586a683b8821e4ac103
+run_name: delicate-ram-821
+run_uuid: 2a730c3bf53b4586a683b8821e4ac103
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719753140815
+status: 4
+tags: []
+user_id: Admin_User

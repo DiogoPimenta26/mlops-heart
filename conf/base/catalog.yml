@@ -163,3 +163,7 @@ best_params:
   type: yaml.YAMLDataset
   filepath: data/07_models/best_params.yml  # Example filepath, adjust as necessary
 
+predictions:
+  type: pandas.CSVDataset
+  filepath: data/06_models/predictions_df.csv
+
