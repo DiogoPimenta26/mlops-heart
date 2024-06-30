@@ -1,8 +1,8 @@
 aliases: []
 creation_timestamp: 1719741459254
 current_stage: None
-description: ''
-last_updated_timestamp: 1719741459254
+description: 'Accuracy: 0.82'
+last_updated_timestamp: 1719759094878
 name: Decision_tree
 run_id: e09d0f7a53f7424ea645a26d8a1c6cd0
 run_link: ''

@@ -1,8 +1,8 @@
 aliases: []
 creation_timestamp: 1719597727841
 current_stage: None
-description: ''
-last_updated_timestamp: 1719597727841
+description: 'Accuracy: 0.83'
+last_updated_timestamp: 1719759138789
 name: Logistic_regression
 run_id: 60cde9669fab4c93a030ec183acf3ba7
 run_link: ''

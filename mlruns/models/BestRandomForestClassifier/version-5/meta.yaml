@@ -1,8 +1,8 @@
 aliases: []
 creation_timestamp: 1719744443313
 current_stage: None
-description: ''
-last_updated_timestamp: 1719744443313
+description: 'Accuracy: 0.9141749853200236'
+last_updated_timestamp: 1719759012130
 name: BestRandomForestClassifier
 run_id: 7a4f23f88c65497ba35af1ee7380ac1c
 run_link: ''

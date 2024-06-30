@@ -1,8 +1,8 @@
 aliases: []
 creation_timestamp: 1719596854076
 current_stage: None
-description: ''
-last_updated_timestamp: 1719596854076
+description: 'Accuracy: 0.89'
+last_updated_timestamp: 1719759177821
 name: Xgboost
 run_id: 9b3eecd6f0d14663a750113ed65e0630
 run_link: ''
