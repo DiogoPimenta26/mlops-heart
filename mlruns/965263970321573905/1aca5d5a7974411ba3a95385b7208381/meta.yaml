@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/diogo/mlops-heart/mlruns/965263970321573905/1aca5d5a7974411ba3a95385b7208381/artifacts
+end_time: 1719741580772
+entry_point_name: ''
+experiment_id: '965263970321573905'
+lifecycle_stage: active
+run_id: 1aca5d5a7974411ba3a95385b7208381
+run_name: marvelous-zebra-980
+run_uuid: 1aca5d5a7974411ba3a95385b7208381
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719741564417
+status: 3
+tags: []
+user_id: diogo

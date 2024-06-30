@@ -146,5 +146,20 @@ production_model_metrics_rf:
     filepath: data/08_reporting/production_model_metrics_rf.json
     
 
+champion_model_output:
+      type: pickle.PickleDataset
+      filepath: data/07_models/champ_model.pkl
 
+model_prediction_results_df:
+  type: pandas.CSVDataset
+  filepath: data/08_reporting/model_prediction_results_df.csv
+
+
+best_model:
+  type: pickle.PickleDataset
+  filepath: data/07_models/best_model.pkl  # Example filepath, adjust as necessary
+
+best_params:
+  type: yaml.YAMLDataset
+  filepath: data/07_models/best_params.yml  # Example filepath, adjust as necessary
 

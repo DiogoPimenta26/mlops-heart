@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/diogo/mlops-heart/mlruns/965263970321573905/9a3b56385bbc4c84b69fee848c374c10/artifacts
+end_time: 1719744332126
+entry_point_name: ''
+experiment_id: '965263970321573905'
+lifecycle_stage: active
+run_id: 9a3b56385bbc4c84b69fee848c374c10
+run_name: crawling-seal-71
+run_uuid: 9a3b56385bbc4c84b69fee848c374c10
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719744315502
+status: 3
+tags: []
+user_id: diogo

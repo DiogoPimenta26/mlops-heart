@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/diogo/mlops-heart/mlruns/965263970321573905/5eaaab3700f24c4593b04f37723ea61a/artifacts
+end_time: 1719744338293
+entry_point_name: ''
+experiment_id: '965263970321573905'
+lifecycle_stage: active
+run_id: 5eaaab3700f24c4593b04f37723ea61a
+run_name: kindly-boar-561
+run_uuid: 5eaaab3700f24c4593b04f37723ea61a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719744315502
+status: 3
+tags: []
+user_id: diogo

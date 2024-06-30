@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/diogo/mlops-heart/mlruns/965263970321573905/4d36a117335f4ce69b23b6f593586db6/artifacts
+end_time: 1719741202894
+entry_point_name: ''
+experiment_id: '965263970321573905'
+lifecycle_stage: active
+run_id: 4d36a117335f4ce69b23b6f593586db6
+run_name: sedate-tern-716
+run_uuid: 4d36a117335f4ce69b23b6f593586db6
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719741185555
+status: 3
+tags: []
+user_id: diogo

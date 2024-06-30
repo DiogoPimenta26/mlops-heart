@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/diogo/mlops-heart/mlruns/965263970321573905/e73fe79fc87c4df3a044d9a2b371c942/artifacts
+end_time: 1719741202894
+entry_point_name: ''
+experiment_id: '965263970321573905'
+lifecycle_stage: active
+run_id: e73fe79fc87c4df3a044d9a2b371c942
+run_name: wistful-bug-592
+run_uuid: e73fe79fc87c4df3a044d9a2b371c942
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719741185555
+status: 3
+tags: []
+user_id: diogo

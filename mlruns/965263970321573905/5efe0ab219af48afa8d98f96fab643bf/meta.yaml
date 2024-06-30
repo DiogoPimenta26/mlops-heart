@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/diogo/mlops-heart/mlruns/965263970321573905/5efe0ab219af48afa8d98f96fab643bf/artifacts
+end_time: 1719744147796
+entry_point_name: ''
+experiment_id: '965263970321573905'
+lifecycle_stage: active
+run_id: 5efe0ab219af48afa8d98f96fab643bf
+run_name: sedate-goat-213
+run_uuid: 5efe0ab219af48afa8d98f96fab643bf
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719744129999
+status: 3
+tags: []
+user_id: diogo

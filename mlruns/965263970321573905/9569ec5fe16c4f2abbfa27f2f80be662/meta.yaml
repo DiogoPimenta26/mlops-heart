@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/diogo/mlops-heart/mlruns/965263970321573905/9569ec5fe16c4f2abbfa27f2f80be662/artifacts
+end_time: 1719741586781
+entry_point_name: ''
+experiment_id: '965263970321573905'
+lifecycle_stage: active
+run_id: 9569ec5fe16c4f2abbfa27f2f80be662
+run_name: gaudy-snail-649
+run_uuid: 9569ec5fe16c4f2abbfa27f2f80be662
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719741564417
+status: 3
+tags: []
+user_id: diogo

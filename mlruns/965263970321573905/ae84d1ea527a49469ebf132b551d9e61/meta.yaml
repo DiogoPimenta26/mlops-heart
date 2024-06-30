@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/diogo/mlops-heart/mlruns/965263970321573905/ae84d1ea527a49469ebf132b551d9e61/artifacts
+end_time: 1719741202894
+entry_point_name: ''
+experiment_id: '965263970321573905'
+lifecycle_stage: active
+run_id: ae84d1ea527a49469ebf132b551d9e61
+run_name: grandiose-cod-387
+run_uuid: ae84d1ea527a49469ebf132b551d9e61
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719741185555
+status: 3
+tags: []
+user_id: diogo

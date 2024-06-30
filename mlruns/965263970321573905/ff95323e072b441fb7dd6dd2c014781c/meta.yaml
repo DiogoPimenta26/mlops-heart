@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/diogo/mlops-heart/mlruns/965263970321573905/ff95323e072b441fb7dd6dd2c014781c/artifacts
+end_time: 1719740661773
+entry_point_name: ''
+experiment_id: '965263970321573905'
+lifecycle_stage: active
+run_id: ff95323e072b441fb7dd6dd2c014781c
+run_name: dashing-mare-456
+run_uuid: ff95323e072b441fb7dd6dd2c014781c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719740650889
+status: 3
+tags: []
+user_id: diogo

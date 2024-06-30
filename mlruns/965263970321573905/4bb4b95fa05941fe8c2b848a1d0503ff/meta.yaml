@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/diogo/mlops-heart/mlruns/965263970321573905/4bb4b95fa05941fe8c2b848a1d0503ff/artifacts
+end_time: 1719739022862
+entry_point_name: ''
+experiment_id: '965263970321573905'
+lifecycle_stage: active
+run_id: 4bb4b95fa05941fe8c2b848a1d0503ff
+run_name: honorable-skunk-55
+run_uuid: 4bb4b95fa05941fe8c2b848a1d0503ff
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719739015849
+status: 3
+tags: []
+user_id: diogo

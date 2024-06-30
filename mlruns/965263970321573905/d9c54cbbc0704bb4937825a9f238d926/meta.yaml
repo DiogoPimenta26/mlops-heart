@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/diogo/mlops-heart/mlruns/965263970321573905/d9c54cbbc0704bb4937825a9f238d926/artifacts
+end_time: 1719744147796
+entry_point_name: ''
+experiment_id: '965263970321573905'
+lifecycle_stage: active
+run_id: d9c54cbbc0704bb4937825a9f238d926
+run_name: bittersweet-dove-37
+run_uuid: d9c54cbbc0704bb4937825a9f238d926
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719744129999
+status: 3
+tags: []
+user_id: diogo

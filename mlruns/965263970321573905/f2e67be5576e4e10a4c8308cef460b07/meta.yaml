@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/diogo/mlops-heart/mlruns/965263970321573905/f2e67be5576e4e10a4c8308cef460b07/artifacts
+end_time: 1719744332126
+entry_point_name: ''
+experiment_id: '965263970321573905'
+lifecycle_stage: active
+run_id: f2e67be5576e4e10a4c8308cef460b07
+run_name: aged-sponge-851
+run_uuid: f2e67be5576e4e10a4c8308cef460b07
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719744315502
+status: 3
+tags: []
+user_id: diogo

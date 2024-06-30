@@ -1,6 +1,5 @@
 from kedro.pipeline import Pipeline, node
 
-# Import your modified model_train function
 from .nodes import model_train
 
 def create_pipeline(**kwargs):

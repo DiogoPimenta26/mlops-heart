@@ -11,7 +11,6 @@ import mlflow
 from sklearn.metrics import accuracy_score
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.tree import DecisionTreeClassifier
-import shap
 import matplotlib.pyplot as plt
 from sklearn.model_selection import GridSearchCV
  
@@ -73,27 +72,6 @@ def model_train(
                     'test_score': acc_test
                 }
  
-                # Compute SHAP values
-                explainer = shap.Explainer(model, X_train_model)
-                shap_values = explainer(X_test_model)
- 
-                # Plot and log SHAP summary plot
-                shap_summary_plot = f"shap_summary_plot_{model_type}.png"
-                plt.figure()
-                shap.summary_plot(shap_values, X_test_model, show=False)
-                plt.savefig(shap_summary_plot)
-                mlflow.log_artifact(shap_summary_plot)
-                plt.close()
- 
-                # Plot and log SHAP dependence plot for each feature
-                for feature in best_columns:
-                    shap_dependence_plot = f"shap_dependence_plot_{model_type}_{feature}.png"
-                    plt.figure()
-                    shap.dependence_plot(feature, shap_values, X_test_model, show=False)
-                    plt.savefig(shap_dependence_plot)
-                    mlflow.log_artifact(shap_dependence_plot)
-                    plt.close()
- 
                 # Logging in MLflow
                 run_id = mlflow.last_active_run().info.run_id
                 logger.info(f"Logged train model in run {run_id}")
@@ -112,6 +90,16 @@ def model_train(
                 logger.error(f"Failed to train {model_type} model: {ex}")
                 raise
  
+    # Determine the champion model based on test score
+    champion_model_type = max(results_dict, key=lambda x: results_dict[x]['test_score'])
+    champion_model = classifier  # Assuming the champion model is the last model trained
+
+    # Save the champion model as a pickle file
+    champion_model_filename = 'champion_model.pkl'
+    with open(champion_model_filename, 'wb') as f:
+        pickle.dump(champion_model, f)
+        logger.info(f"Champion model saved as {champion_model_filename}")
+
     # Convert the dictionary to a list in the order of your node's output definition
     output_list = [
         results_dict.get("random_forest", {}).get("classifier", None),
@@ -121,8 +109,6 @@ def model_train(
         results_dict.get("random_forest", {}).get("test_score", None),
         results_dict.get("decision_tree", {}).get("test_score", None)
     ]
-    # Determine the champion model based on test score
-    champion_model_type = max(results_dict, key=lambda x: results_dict[x]['test_score'])
  
     # Output the champion model information
     champion_output = [
@@ -132,4 +118,3 @@ def model_train(
     ]
  
     return champion_output, output_list
-    

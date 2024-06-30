@@ -1,22 +1,26 @@
-"""
-This is a boilerplate pipeline 'model_tunning'
-generated using Kedro 0.19.5
-"""
-
-from kedro.pipeline import Pipeline, pipeline
-
 from kedro.pipeline import Pipeline, node
-from .nodes import hyperparameter_tuning
- 
+
+from .nodes import model_tune
+
 def create_pipeline(**kwargs):
     return Pipeline(
         [
             node(
-                hyperparameter_tuning,
-                inputs=["X_train", "X_test", "y_train", "y_test", "champion_model_output", "parameters", "best_columns"],
-                outputs="tuned_model_results",
-                name="hyperparameter_tuning_node"
+                func=model_tune,
+                inputs=[
+                    "X_train",
+                    "X_test",
+                    "y_train",
+                    "y_test",
+                    "champion_model_output",
+                    "params:tuning_params",
+                    "best_columns"
+                ],
+                outputs=[
+                    "best_model",
+                    "best_params",
+                ],
+                name="tune_model_node"
             ),
         ]
     )
-

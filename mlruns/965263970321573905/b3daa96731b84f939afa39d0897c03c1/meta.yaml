@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/diogo/mlops-heart/mlruns/965263970321573905/b3daa96731b84f939afa39d0897c03c1/artifacts
+end_time: 1719741580772
+entry_point_name: ''
+experiment_id: '965263970321573905'
+lifecycle_stage: active
+run_id: b3daa96731b84f939afa39d0897c03c1
+run_name: honorable-rook-142
+run_uuid: b3daa96731b84f939afa39d0897c03c1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719741564417
+status: 3
+tags: []
+user_id: diogo

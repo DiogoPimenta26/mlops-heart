@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/diogo/mlops-heart/mlruns/965263970321573905/b3ea94adcff24994ac77424b0b64f517/artifacts
+end_time: 1719741449537
+entry_point_name: ''
+experiment_id: '965263970321573905'
+lifecycle_stage: active
+run_id: b3ea94adcff24994ac77424b0b64f517
+run_name: traveling-flea-89
+run_uuid: b3ea94adcff24994ac77424b0b64f517
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719741434998
+status: 3
+tags: []
+user_id: diogo

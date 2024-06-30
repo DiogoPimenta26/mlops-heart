@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/diogo/mlops-heart/mlruns/965263970321573905/b3ea90f4702647118af3d9f5b726300c/artifacts
+end_time: 1719744436155
+entry_point_name: ''
+experiment_id: '965263970321573905'
+lifecycle_stage: active
+run_id: b3ea90f4702647118af3d9f5b726300c
+run_name: melodic-yak-351
+run_uuid: b3ea90f4702647118af3d9f5b726300c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719744418094
+status: 3
+tags: []
+user_id: diogo

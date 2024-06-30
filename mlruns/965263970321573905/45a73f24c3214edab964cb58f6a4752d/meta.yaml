@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/diogo/mlops-heart/mlruns/965263970321573905/45a73f24c3214edab964cb58f6a4752d/artifacts
+end_time: 1719744332126
+entry_point_name: ''
+experiment_id: '965263970321573905'
+lifecycle_stage: active
+run_id: 45a73f24c3214edab964cb58f6a4752d
+run_name: exultant-shad-284
+run_uuid: 45a73f24c3214edab964cb58f6a4752d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719744315502
+status: 3
+tags: []
+user_id: diogo

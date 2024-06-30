@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/diogo/mlops-heart/mlruns/965263970321573905/6b91378b3dd54e2480d0f6797674a77e/artifacts
+end_time: 1719741202894
+entry_point_name: ''
+experiment_id: '965263970321573905'
+lifecycle_stage: active
+run_id: 6b91378b3dd54e2480d0f6797674a77e
+run_name: flawless-cub-453
+run_uuid: 6b91378b3dd54e2480d0f6797674a77e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719741185555
+status: 3
+tags: []
+user_id: diogo

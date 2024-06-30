@@ -15,6 +15,7 @@ from mlops_heart.pipelines import (
     feature_selection as fs,
     model_train as mt,
     model_tunning as mtu,
+    model_predict as mp,
     #data_drift as dd,
 )
 
@@ -38,6 +39,7 @@ def register_pipelines() -> Dict[str, Pipeline]:
     feature_selection_pipeline = fs.create_pipeline()
     model_train_pipeline = mt.create_pipeline()
     model_tunning_pipeline = mtu.create_pipeline()
+    model_predict_pipeline = mp.create_pipeline()
 #    data_drift_pipeline = dd.create_pipeline()
 
     return {
@@ -53,5 +55,6 @@ def register_pipelines() -> Dict[str, Pipeline]:
         "feature_selection": feature_selection_pipeline,
         "model_train": model_train_pipeline,
         "model_tunning": model_tunning_pipeline,
+        "model_predict": model_predict_pipeline,
  #       "data_drift": data_drift_pipeline,
     }

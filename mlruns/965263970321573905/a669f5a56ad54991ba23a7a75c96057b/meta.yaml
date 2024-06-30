@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/diogo/mlops-heart/mlruns/965263970321573905/a669f5a56ad54991ba23a7a75c96057b/artifacts
+end_time: 1719744436155
+entry_point_name: ''
+experiment_id: '965263970321573905'
+lifecycle_stage: active
+run_id: a669f5a56ad54991ba23a7a75c96057b
+run_name: wistful-trout-751
+run_uuid: a669f5a56ad54991ba23a7a75c96057b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719744418094
+status: 3
+tags: []
+user_id: diogo

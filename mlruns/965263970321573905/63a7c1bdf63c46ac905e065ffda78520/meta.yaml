@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/diogo/mlops-heart/mlruns/965263970321573905/63a7c1bdf63c46ac905e065ffda78520/artifacts
+end_time: 1719741202894
+entry_point_name: ''
+experiment_id: '965263970321573905'
+lifecycle_stage: active
+run_id: 63a7c1bdf63c46ac905e065ffda78520
+run_name: burly-ox-64
+run_uuid: 63a7c1bdf63c46ac905e065ffda78520
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719741185555
+status: 3
+tags: []
+user_id: diogo
