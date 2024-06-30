@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/diogo/mlops-heart/mlruns/965263970321573905/3307f2c80712448aa550078aa08d921b/artifacts
+end_time: 1719758675021
+entry_point_name: ''
+experiment_id: '965263970321573905'
+lifecycle_stage: active
+run_id: 3307f2c80712448aa550078aa08d921b
+run_name: auspicious-moose-433
+run_uuid: 3307f2c80712448aa550078aa08d921b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719758658847
+status: 3
+tags: []
+user_id: diogo

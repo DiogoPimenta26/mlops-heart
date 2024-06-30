@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/diogo/mlops-heart/mlruns/965263970321573905/e4ece28238b74647a052a7223ea52872/artifacts
+end_time: 1719758675021
+entry_point_name: ''
+experiment_id: '965263970321573905'
+lifecycle_stage: active
+run_id: e4ece28238b74647a052a7223ea52872
+run_name: loud-slug-317
+run_uuid: e4ece28238b74647a052a7223ea52872
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719758658847
+status: 3
+tags: []
+user_id: diogo

@@ -43,7 +43,7 @@ def validate_data(data: pd.DataFrame) -> pd.DataFrame:
 
 #TODO AQUI POR AS COLUNAS MAIS IMPORTANTES DO FEATURE SELECTION
     # Check for missing values in critical columns
-    critical_columns = ['age', 'sex', 'chest_pain_type', 'resting_bp_s', 'cholesterol', 'max_heart_rate', 'target']
+    critical_columns = ['age', 'sex', 'fasting_blood_sugar','chest_pain_type', 'resting_bp_s', 'cholesterol', 'max_heart_rate','exercise_angina', 'target']
 
     for column in critical_columns:
         assert pd_df_ge.expect_column_values_to_not_be_null(column).success, f"Column {column} contains null values"

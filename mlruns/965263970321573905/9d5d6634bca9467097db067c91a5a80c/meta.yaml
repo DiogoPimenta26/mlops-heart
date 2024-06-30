@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/diogo/mlops-heart/mlruns/965263970321573905/9d5d6634bca9467097db067c91a5a80c/artifacts
+end_time: 1719759012195
+entry_point_name: ''
+experiment_id: '965263970321573905'
+lifecycle_stage: active
+run_id: 9d5d6634bca9467097db067c91a5a80c
+run_name: flawless-wasp-813
+run_uuid: 9d5d6634bca9467097db067c91a5a80c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719759002506
+status: 3
+tags: []
+user_id: diogo

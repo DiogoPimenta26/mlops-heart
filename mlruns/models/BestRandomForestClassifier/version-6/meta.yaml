@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1719758680880
+current_stage: None
+description: ''
+last_updated_timestamp: 1719758680880
+name: BestRandomForestClassifier
+run_id: c90bc0e166dc4dce91a14219bc65ab75
+run_link: ''
+source: file:///C:/Users/diogo/mlops-heart/mlruns/965263970321573905/c90bc0e166dc4dce91a14219bc65ab75/artifacts/best_RandomForestClassifier_model
+status: READY
+status_message: null
+storage_location: file:///C:/Users/diogo/mlops-heart/mlruns/965263970321573905/c90bc0e166dc4dce91a14219bc65ab75/artifacts/best_RandomForestClassifier_model
+user_id: null
+version: 6
